@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperHero.API", "SuperHero.API\SuperHero.API.csproj", "{D13342B5-C3FE-42DE-A062-95E20C099886}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SuperHeroDb", "SuperHeroDb\SuperHeroDb.sqlproj", "{69CB7E2E-D65E-4E2C-9ADF-242B6AE730C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D13342B5-C3FE-42DE-A062-95E20C099886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13342B5-C3FE-42DE-A062-95E20C099886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13342B5-C3FE-42DE-A062-95E20C099886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13342B5-C3FE-42DE-A062-95E20C099886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CB7E2E-D65E-4E2C-9ADF-242B6AE730C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CB7E2E-D65E-4E2C-9ADF-242B6AE730C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CB7E2E-D65E-4E2C-9ADF-242B6AE730C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{69CB7E2E-D65E-4E2C-9ADF-242B6AE730C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CB7E2E-D65E-4E2C-9ADF-242B6AE730C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69CB7E2E-D65E-4E2C-9ADF-242B6AE730C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {854157C8-4A6B-453F-9624-0DF3A00990B6}
+	EndGlobalSection
+EndGlobal

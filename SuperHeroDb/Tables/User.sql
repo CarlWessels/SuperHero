@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[User]
+(
+	[Id] INT IDENTITY(1,1) PRIMARY KEY,
+	[UserName] NVARCHAR(255) NOT NULL,
+	[PasswordHash] VARBINARY(255) NOT NULL,
+)
